@@ -8,7 +8,8 @@ module.exports = (grunt) ->
     express:
       dev:
         options:
-          script: './server.js'
+          cmd: 'coffee'
+          script: './server.coffee'
     watch:
       options:
         livereload: true
