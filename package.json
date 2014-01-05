@@ -1,0 +1,22 @@
+{
+  "name": "weee",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "q": "~0.9.7",
+    "q-io": "~1.10.6",
+    "node-uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "grunt-express-server": "~0.4.11",
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3"
+  }
+}
