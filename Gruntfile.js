@@ -17,18 +17,10 @@ module.exports = function(grunt) {
         livereload: true
       },
       express: {
-        files: ['**/*.json', '**/*.js'],
+        files: ['**/*.json', '**/*.js', '**/*.coffee'],
         tasks: ['express:dev'],
         options: {
           spawn: false
-        }
-      }
-    },
-    jshint: {
-      dev: {
-        src: ['Gruntfile.js', 'server.js'],
-        options: {
-          force: true
         }
       }
     }
