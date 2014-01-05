@@ -19,6 +19,5 @@ module.exports = (grunt) ->
           spawn: false
 
   grunt.registerTask 'dev', ['express:dev', 'watch']
-
   grunt.registerTask 'default', ['dev']
 
