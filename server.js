@@ -5,7 +5,7 @@ var Q = require('q');
 var app = express();
 
 var BASE_PATH_RE = /\/pathstuff\/morepath\/(.+)/
-var RESOURCE_BASEDIR = './'
+var RESOURCE_BASEDIR = 'fixtures/'
 var CACHE = {};
 var PORT = 8082;
 
