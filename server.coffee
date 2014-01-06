@@ -30,6 +30,10 @@ app.get BASE_PATH_RE, (req, res) ->
     res.send 404
   .done()
 
+app.get '/bust-cache', (req, res) ->
+  CACHE = {}
+  res.send 'busted'
+
 app.listen PORT
 console.log 'starting server on ' + PORT
 
