@@ -7,16 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Andy Aylward",
   "license": "BSD-2-Clause",
   "dependencies": {
     "q": "~0.9.7",
     "q-io": "~1.10.6",
-    "coffee-script": "~1.6.3"
-  },
-  "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "load-grunt-tasks": "~0.3.0",
     "grunt-express-server": "~0.4.11",
     "grunt": "~0.4.2",
     "grunt-contrib-watch": "~0.5.3"
+  },
+  "devDependencies": {
   }
 }

@@ -14,7 +14,7 @@ module.exports = (grunt) ->
       options:
         livereload: true
       express:
-        files: ['**/*.json', '**/*.js', '**/*.coffee']
+        files: ['**/*.json', '**/*.js', '**/*.coffee', '!node_modules/**/*']
         tasks: ['express:dev']
         options:
           spawn: false
